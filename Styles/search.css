@@ -1,0 +1,68 @@
+
+#navbar{
+width: 100%;
+height: 70px;
+
+display: flex;
+justify-content: space-between;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+margin-bottom: 70px;
+
+
+}
+a{
+text-decoration: none;
+}
+#logo{
+width: 200px;
+height: 70px;
+margin-left: 50px;
+
+
+}
+
+#navdiv2{
+width: 550px;
+margin: auto;
+/* border: 1px solid; */
+margin-right: 10px;
+display: flex;
+}
+#navdiv2 a{
+margin-left: 20px;
+}
+#puppyName{
+width: 200px;
+height: 30px;
+border-radius: 50px;
+margin-top: 14px;
+}
+button{
+width: 80px;
+height: 35px;
+border-radius: 50px;
+margin-top: 14px;
+margin-left: 5px;
+background-color: teal;
+color: white;
+}
+
+#results{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 1%;
+    /* border: 1px solid; */
+   
+}
+
+
+
+#results div{
+   /* border: 5px solid grey; */
+   margin: auto;
+   margin-bottom: -200px;
+}
+#results div img{
+    border: 5px solid grey;
+    /* margin: auto; */
+ }
